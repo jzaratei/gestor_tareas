@@ -1,6 +1,7 @@
 # Gestor de Tareas (To-Do List) - Actividad 6
 
 Este proyecto es una aplicación web interactiva desarrollada para la asignatura de **Desarrollo Web en Entorno Cliente**. Permite a los usuarios gestionar una lista de tareas (añadir, marcar como completadas y eliminar) manipulando el DOM dinámicamente sin recargar la página.
+Adicionalmente, este proyecto forma parte de la actividad 6 del modulo **Despliegue de aplicaciones web**
 
 ## Estructura del Proyecto
 
