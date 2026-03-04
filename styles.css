@@ -1,0 +1,96 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.container {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+#input-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Estilo base para los items de la lista*/
+
+li {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* Cambiamos el cursor para indicar que se puede hacer clic */
+  cursor: pointer;
+  transition: all 0.2s; /* Suaviza el cambio de color */
+}
+
+li:hover {
+  background-color: #fafafa;
+}
+
+/* Clase para cuando la tarea está hecha */
+.completada {
+  text-decoration: line-through; /* Tacha el texto */
+  color: #888; /* Color grisáceo */
+  background-color: #e2e6ea; /* Fondo ligeramente más oscuro */
+}
+
+/* Estilo para el botón de eliminar dentro de la lista */
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
